@@ -14,3 +14,136 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.container {
+	width: 100%;
+}
+
+.main {
+	width: 100%;
+
+}
+
+.nav {
+	color: white;
+	width: 20%;
+	position: fixed;
+	right: 0;
+	padding: 20px;
+	height: 100%;
+	background: #00224f;
+}
+
+.nav .acts {
+	display: grid;
+	grid-gap: 15px;
+	padding: 40px 0;
+}
+
+.nav .acts .home {
+	cursor: pointer;
+	transition: all .2s;
+	width: fit-content;
+	border-bottom: 1px solid #00224f;
+}
+
+.nav .acts .home:hover {
+	border-bottom: 1px solid white;
+}
+
+.active {
+	border-bottom: 1px solid pink;
+}
+
+.main .content {
+	width: 80%;
+	padding: 100px 20px 20px;
+	display: grid;
+	place-items: center;
+}
+
+.main .content img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.main .content .sir {
+	margin-top: 40px;
+}
+
+
+.chapter .content{
+	padding: 40px;
+	font-size: 12px;
+	width: 80%;
+}
+
+
+.chap6 {
+	width: 100%;
+}
+
+.chap6 .outer {
+	padding: 40px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.outer .inner img{
+	width: 100%;
+}
+
+.chapter8 .content {
+	display: grid;
+	place-items: center;
+	padding: 90px 40px;
+	font-size: 12px;
+	width: 80%;
+}
+
+.chapter8 .content form {
+	width: 400px;
+}
+
+form input {
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	border-radius: 0;
+	margin-bottom: 10px;
+	border: 1px solid #e3e3e3;
+}
+
+
+.chapter7 .content {
+	padding: 20px;
+	width: 80%;
+}
+
+.chapter7 .content table {
+	width: 100%;
+}
+
+.chapter7 .content table td {
+	text-align: center;
+	width: 100px;
+	border: 1px solid #e3e3e3;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.chapter7 .content .head img {
+	width: 100px;
+}
+
+.chapter7 .content table td img {
+	width: 100%;
+	} 
+
+
+
+
+
